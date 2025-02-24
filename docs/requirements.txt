@@ -2,6 +2,8 @@ chipwhisperer
 jupyter-book
 matplotlib
 numpy
+sphinx
+sphinx-rtd-theme
 sphinx-inline-tabs
 sphinx-examples
 sphinx-hoverxref
