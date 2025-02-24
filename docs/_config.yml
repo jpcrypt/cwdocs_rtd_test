@@ -36,6 +36,7 @@ html:
 
 sphinx:
   config:
+    autodoc_warningiserror: false
     intersphinx_mapping:
       ebp:
         - "https://executablebooks.org/en/latest/"
