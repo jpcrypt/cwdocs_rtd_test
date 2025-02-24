@@ -27,7 +27,7 @@ parts:
       - file: cwtips/connect
   - file: advanced_usage
     sections:
-      - file: cwtips/segmented
+      - file: cwtips/segmented_run
       - file: cwtips/sequenced
       - file: cwtips/fast_captures
       - file: cwtips/get_trigger_times
