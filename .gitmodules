@@ -1,0 +1,3 @@
+[submodule "docs/chipwhisperer-target-cw308t"]
+	path = docs/chipwhisperer-target-cw308t
+	url = https://github.com/newaetech/chipwhisperer-target-cw308t

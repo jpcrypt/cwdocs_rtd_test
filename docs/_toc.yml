@@ -11,4 +11,8 @@ parts:
 - caption: API
   chapters:
   - file: scope-api
+- caption: UFO Targets
+  chapters:
+  - file: chipwhisperer-target-cw308t/CW312T_ICE40UP/README
+  - file: chipwhisperer-target-cw308t/CW308T_STM32F/README
 
