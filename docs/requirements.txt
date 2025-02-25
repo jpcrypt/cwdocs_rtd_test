@@ -8,3 +8,5 @@ sphinx-inline-tabs
 sphinx-examples
 sphinx-hoverxref
 sphinxcontrib-images
+sphinx-autodoc-typehints
+

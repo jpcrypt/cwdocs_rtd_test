@@ -36,6 +36,22 @@ html:
 sphinx:
   config:
     autodoc_warningiserror: false
+    nitpicky: true
+    napoleon_google_docstring: true
+    napoleon_numpy_docstring: true
+    napoleon_include_init_with_doc: false
+    napoleon_include_private_with_doc: false
+    napoleon_include_special_with_doc: true
+    napoleon_use_admonition_for_examples: false
+    napoleon_use_admonition_for_notes: false
+    napoleon_use_admonition_for_references: false
+    napoleon_use_ivar: false
+    napoleon_use_param: true
+    napoleon_use_rtype: true
+    napoleon_preprocess_types: false
+    napoleon_type_aliases: None
+    napoleon_attr_annotations: true
+    todo_include_todos: true
     intersphinx_mapping:
       ebp:
         - "https://executablebooks.org/en/latest/"
@@ -59,6 +75,9 @@ sphinx:
      - "sphinxproof"
         
   extra_extensions:
+    - sphinx.ext.napoleon
+    - sphinx.ext.todo
+    - sphinx_autodoc_typehints
     - sphinx.ext.intersphinx
     - sphinx_inline_tabs
     - sphinxcontrib.images
