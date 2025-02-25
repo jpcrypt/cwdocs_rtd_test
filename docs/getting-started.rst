@@ -4,6 +4,8 @@
 Overview
 ########
 
+**This is now the 0.2 release!**
+
 New to ChipWhisperer? No problem!
 
 This page will give a brief overview of what ChipWhisperer is, where you can
