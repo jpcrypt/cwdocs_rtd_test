@@ -52,6 +52,9 @@ sphinx:
     napoleon_type_aliases: None
     napoleon_attr_annotations: true
     todo_include_todos: true
+    notfound_context:
+        body: "<h1>Whoops! Page Not Found</h1>\n\n<p>Sorry, this page doesn't exist. Many sections of this book have moved around.</p><p>Try the <a href='https://cwdocs-rtd-test.readthedocs.io/en/latest/getting-started.html'>home page 🏠 </a> or <a href='https://cwdocs-rtd-test.readthedocs.io/en/latest/search.html'>search page 🔎 </a> to find what you're looking for.</p>"
+    notfound_urls_prefix: "/"
     intersphinx_mapping:
       ebp:
         - "https://executablebooks.org/en/latest/"
@@ -84,4 +87,5 @@ sphinx:
     - sphinx_examples
     - hoverxref.extension
     - sphinx.ext.autodoc
+    - notfound.extension
 

@@ -9,4 +9,4 @@ sphinx-examples
 sphinx-hoverxref
 sphinxcontrib-images
 sphinx-autodoc-typehints
-
+sphinx-notfound-page
